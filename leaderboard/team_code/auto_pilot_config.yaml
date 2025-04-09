@@ -1,0 +1,29 @@
+#     "ClearNoon": carla.WeatherParameters.ClearNoon,
+#     "ClearSunset": carla.WeatherParameters.ClearSunset,
+#     "CloudyNoon": carla.WeatherParameters.CloudyNoon,
+#     "CloudySunset": carla.WeatherParameters.CloudySunset,
+#     "WetNoon": carla.WeatherParameters.WetNoon,
+#     "WetSunset": carla.WeatherParameters.WetSunset,
+#     "MidRainyNoon": carla.WeatherParameters.MidRainyNoon,
+#     "MidRainSunset": carla.WeatherParameters.MidRainSunset,
+#     "WetCloudyNoon": carla.WeatherParameters.WetCloudyNoon,
+#     "WetCloudySunset": carla.WeatherParameters.WetCloudySunset,
+#     "HardRainNoon": carla.WeatherParameters.HardRainNoon,
+#     "HardRainSunset": carla.WeatherParameters.HardRainSunset,
+#     "SoftRainNoon": carla.WeatherParameters.SoftRainNoon,
+#     "SoftRainSunset": carla.WeatherParameters.SoftRainSunset,
+#     "ClearNight": carla.WeatherParameters(5.0,0.0,0.0,10.0,-1.0,-90.0,60.0,75.0,1.0,0.0),
+#     "CloudyNight": carla.WeatherParameters(60.0,0.0,0.0,10.0,-1.0,-90.0,60.0,0.75,0.1,0.0),
+#     "WetNight": carla.WeatherParameters(5.0,0.0,50.0,10.0,-1.0,-90.0,60.0,75.0,1.0,60.0),
+#     "WetCloudyNight": carla.WeatherParameters(60.0,0.0,50.0,10.0,-1.0,-90.0,60.0,0.75,0.1,60.0),
+#     "SoftRainNight": carla.WeatherParameters(60.0,30.0,50.0,30.0,-1.0,-90.0,60.0,0.75,0.1,60.0),
+#     "MidRainyNight": carla.WeatherParameters(80.0,60.0,60.0,60.0,-1.0,-90.0,60.0,0.75,0.1,80.0),
+#     "HardRainNight": carla.WeatherParameters(100.0,100.0,90.0,100.0,-1.0,-90.0,100.0,0.75,0.1,100.0),
+
+
+weather : random
+waypoint_disturb : 0
+waypoint_disturb_seed : 2023
+destory_hazard_actors : true
+save_skip_frames : 10
+rgb_only : false

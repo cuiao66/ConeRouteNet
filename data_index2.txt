@@ -1,0 +1,48 @@
+
+weather-1/Town05_short/routes_town05_short_02_11_11_19_36 114
+
+weather-1/Town05_short/routes_town05_short_02_11_11_34_54 164
+
+weather-1/Town05_short/routes_town05_short_02_11_12_02_38 213
+
+weather-1/Town05_short/routes_town05_short_02_11_12_28_54 108
+
+weather-1/Town05_short/routes_town05_short_02_11_12_41_41 22
+
+weather-1/Town05_short/routes_town05_short_02_11_12_44_36 102
+
+weather-1/Town05_short/routes_town05_short_02_11_12_57_00 192
+
+weather-1/Town05_short/routes_town05_short_02_11_14_24_40 521
+
+weather-1/Town05_short/routes_town05_short_02_11_16_03_46 521
+
+weather-1/Town05_short/routes_town05_short_02_11_17_45_06 276
+
+weather-1/Town05_short/routes_town05_short_02_11_18_37_21 279
+
+weather-1/Town05_short/routes_town05_short_02_11_19_28_44 158
+
+weather-1/Town05_short/routes_town05_short_02_11_19_58_52 211
+
+weather-1/Town05_short/routes_town05_short_02_11_20_39_45 211
+
+weather-1/Town05_short/routes_town05_short_02_11_21_21_44 272
+
+weather-1/Town05_short/routes_town05_short_02_11_22_12_45 279
+
+weather-1/Town05_short/routes_town05_short_02_12_07_43_21 141
+
+weather-1/Town05_short/routes_town05_short_02_12_08_20_50 331
+
+weather-1/Town05_short/routes_town05_short_02_12_09_47_27 634
+
+weather-1/Town05_short/routes_town05_short_02_12_12_26_41 799
+
+weather-1/Town05_short/routes_town05_short_02_12_15_46_35 53
+
+weather-1/Town05_short/routes_town05_short_02_12_16_01_00 22
+
+weather-1/Town05_short/routes_town05_short_02_12_16_06_58 510
+
+weather-1/Town05_short/routes_town05_short_02_12_18_19_52 154

@@ -1,0 +1,119 @@
+carla docker Error: core dump, xdg_runtime-dirs, xdg-user*
+    apt install xdg-user-dirs xdg-utils
+
+pip source 
+-i pip install -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+libjpeg.so.8: cannot open shared object file: No such file or directory.
+https://blog.csdn.net/wp133716/article/details/107197125#:~:text=%E5%9C%A8docker%E5%AE%B9%E5%99%A8%E9%87%8C%E6%89%A7%E8%A1%8Ccarla%E7%9A%84PythonAPI%E6%8A%A5%E9%94%99%EF%BC%9A%20libjpeg.so.8%3A%20cannot%20open%20shared%20object%20file%3A%20No,or%20directory.%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A%E5%8F%82%E8%80%83%E5%8D%9A%E5%AE%A2https%3A%2F%2Fjpegclub.org%2Fsupport%2Ffiles%2Fjpegsrc.v8d1.tar.gz%E4%B8%8B%E8%BD%BD%E5%BA%93%E6%96%87%E4%BB%B6%EF%BC%8C%E8%A7%A3%E5%8E%8B%E5%90%8E%EF%BC%8C%E4%BB%8E%E7%BB%88%E7%AB%AF%E8%BF%9B%E5%85%A5%E5%88%B0%20libjpeg%20%E6%89%80%E5%9C%A8%E7%9B%AE%E5%BD%95%EF%BC%8C%E7%94%A8%E5%B8%B8%E8%A7%84%E6%96%B9%E6%B3%95%E6%97%A2%E5%8F%AF%E5%AE%89%E8%A3%85%EF%BC%8C%E5%91%BD%E4%BB%A4%E5%A6%82%E4%B8%8B%EF%BC%9A.%2Fconfigure%20make%20make%20install%20make
+
+ImportError: libtiff.so.5: cannot open shared object file: No such file or directory
+apt-get install libtiff5-dev
+
+AttributeError: type object 'ParallelPolicy' has no attribute 'SUCCESS_ON_ONE'
+py-trees==0.8.3
+
+ImportError: libpng16.so.16: cannot open shared object file: No such file or directory
+sudo apt-get install libpng16-16
+
+AttributeError: module ‘distutils’ has no attribute ‘version’
+pip uninstall setuptools
+pip install setuptools==59. 5.0 //需要比你之前的低
+
+libjpeg.so.8: cannot open shared object file: No such file or directory.
+wget https://jpegclub.org/support/files/jpegsrc.v8d1.tar.gz
+./configure
+ make
+ make install
+ make test
+ export LD_LIBRARY_PATH=/usr/local/lib
+
+
+add-apt-repository: command not found
+sudo apt-get install software-properties-common
+sudo apt-get update
+
+python3.7
+add-apt-repository ppa:deadsnakes/ppa
+apt install python3.7-dev
+
+python3.7 get-pip.py -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip No module named ‘distutils.cmd
+apt-get install python3.7-distutils 
+
+ImportError: libSM.so.6: cannot open shared object file: No such file or directory
+apt-get install libsm6
+
+libXrender.so.1
+apt-get install libxrender1
+
+
+RuntimeError: CUDA error: no kernel image is available for execution on the
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+
+shared memory (shm)
+
+docker run -it \
+        --gpus '"device=0,1"' \
+        --shm-size 32g \
+
+
+ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+apt install libgl1-mesa-glx
+ 
+
+AttributeError: type object 'ParallelPolicy' has no attribute 'SUCCESS_ON_ONE'
+py_tree ==  0.8.3
+https://github.com/carla-simulator/scenario_runner/issues/24
+
+
+mmseg NameError: name 'reload' is not defined
+pip install mmsegmentation
+
+ModuleNotFoundError: No module named ‘mmcv._ext
+pip install mmcv-full
+
+
+VOID = -1
+LEFT = 1
+RIGHT = 2
+STRAIGHT = 3
+LANEFOLLOW = 4
+CHANGELANELEFT = 5
+CHANGELANERIGHT = 6
+
+
+error RC1015: cannot open include file ‘afxres.h‘. 
+未安装MFC, 安装或者将 
+#include "afxres.h"  
+改为
+#include <Windows.h>
+#include <winres.h>
+
+
+build carla:
+Failed to find XercesC (missing: XercesC_VERSION)
+版本问题，要求的版本无法下载，下载最新的版本安装，但要把路径名改回要求版本的名字
+
+
+libcarla.cpython-38-x86_64-linux-gnu.so: undefined symbol: _Py_tracemalloc_config
+
+https://www.jianshu.com/p/32d63b33b510
+意思是，PyFloat_Type是在libpython里定义的，但是cpython-38-x86_64-linux-gnu.so并没有依赖libpython，所有就需要我们通过设置一下环境变量LD_PRELOAD来解决
+sudo find / -name "libpython*"
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libpython3.8.so
+
+
+fatal error: 'pyconfig.h' file not found
+
+export CPLUS_INCLUDE_PATH=/home/mct/anaconda3/envs/carla3.7/include/python3.7m/
+
+
+RuntimeError: cuDNN error: CUDNN_STATUS_INTERNAL_ERROR
+未解决，参考
+https://blog.csdn.net/yapifeitu/article/details/109004902
+
+设置transformer层数为12时出现，改为8时问题消失，原因未知

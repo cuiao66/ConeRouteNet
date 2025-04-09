@@ -1,0 +1,29 @@
+v1/train.py
+
+修改MVTL1Loss
+loss3有时会得到0导致程序无法运行的情况
+因为标签的值全部小于0.01
+添加修补
+
+
+tag baseline：原始transfuser配置
+
+tag v0.2    ：去掉雷达数据，仅使用encoder
+
+
+commit 20230326v1， 使用GC-ViT-32作为backbone
+
+commit 20230327v1，使用timm提供的预训练权重，因此修改了当前的timm版本（可能存在不兼容问题）
+
+commit 20230403v1，更改了leaderboard为0.9.10版本
+
+
+commit 20230405v1，修改了loss权重，waypoint权重增加为0.4
+
+202306192209 save for old version
+
+202306192237 delete v2 v3, rename v1 to net
+
+AE_trafficPretrain_waypointFinetune
+
+使用decoder辅助encoder，推理去掉decoder
