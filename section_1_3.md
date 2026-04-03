@@ -12,9 +12,9 @@
 
 本文主要技术路线如图 1.8所示。
 
-![图 1.8 研究技术路线](https://github.com/user-attachments/assets/96bc3dc5-4c5d-4fa8-a5b8-90a5c8164151)
+![研究技术路线](https://github.com/user-attachments/assets/96bc3dc5-4c5d-4fa8-a5b8-90a5c8164151)
 
-图 1.8 研究技术路线
+<p align="center">图 1.8 研究技术路线</p>
 
 全文共分为六章，各章节内容安排如下：
 
